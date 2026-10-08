@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+*.tsbuildinfo
+
+# env files (machine-specific; .env.local is written by deploy/deploy.mjs)
+.env
+.env.local
+
+# vercel
+.vercel
+
+# os / editor
+.DS_Store
+*.log
+
+# python test artifacts
+__pycache__/
+.pytest_cache/
+.venv/

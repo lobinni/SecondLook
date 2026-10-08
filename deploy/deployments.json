@@ -1,0 +1,17 @@
+{
+  "current": "studionet-1",
+  "deployments": {
+    "studionet-1": {
+      "contract": "SecondLookCourt",
+      "address": "0x7557947cAD4785Fd7db9E4ea8A9b930D9e2881a1",
+      "network": "GenLayer Studionet",
+      "chainId": 61999,
+      "rpcUrl": "https://studio.genlayer.com/api",
+      "explorerUrl": "https://explorer-studio.genlayer.com",
+      "tickSeconds": 60,
+      "windowTicks": 3,
+      "windowSeconds": 180,
+      "notes": "Current production court for the dApp. Gasless hosted network; the contract has no owner, admin, operator or pause key."
+    }
+  }
+}
